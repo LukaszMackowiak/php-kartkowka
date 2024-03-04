@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <title>Formularz</title>
+ </head>
+ <body>
+ <form method="get"
+ action="http://localhost/skrypt.php">
+ <style>
+    label {
+        display: block;
+    }
+ </style>
+ <div>
+    <p>
+    <label for="panstwo">Państwo: <input type="text" id="panstwo" name="panstwo" required/></label>
+    <label for="transport">Środek lokomocji: <input type="text" id="transport" name="transport" required/></label>
+    <label for="czas">Czas trwania: <input type="number" id="czas" name="czas" min="0" required/></label>
+    <label for="email">Email wysyłającego: <input type="text" id="email" name="email" required/></label>
+    </p>
+ <button type="submit">Dodaj moje zapytanie</button>
+ </div>
+ </form>
+</body>
+</html>
